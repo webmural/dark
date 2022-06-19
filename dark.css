@@ -1,0 +1,25 @@
+::selection {
+  background: #bae;
+  color: black;
+}
+
+:root {
+  background: #111;
+  color: #eee;
+}
+
+:any-link {
+  color: violet;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: #000;
+  }
+}
+
+@media (prefers-contrast: less) {
+  :root {
+    color: #ddd;
+  }
+}
